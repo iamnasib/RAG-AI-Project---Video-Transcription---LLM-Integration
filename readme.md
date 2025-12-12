@@ -99,7 +99,7 @@ This project includes content from:
 
 ### Embedding & Retrieval
 
-- Uses OpenAI's embedding model to create vector representations of text chunks
+- Uses local ollama "model":"bge-m3" embedding model to create vector representations of text chunks
 - Stores embeddings locally in `embeddings.joblib` for fast retrieval
 - Uses **cosine similarity** to find chunks most relevant to user queries
 

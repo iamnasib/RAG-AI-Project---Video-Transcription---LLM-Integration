@@ -1,0 +1,10 @@
+openai==2.9.0
+openai-whisper @ git+https://github.com/openai/whisper.git@c0d2f624c09dc18e709e37c2ad90c039a4eb72a2
+numpy==2.3.3
+scikit-learn==1.7.2
+joblib==1.5.2
+python-dotenv==1.2.1
+torch==2.0.1
+requests==2.31.0
+torchvision==0.24.1+cu130
+pandas==2.3.3
