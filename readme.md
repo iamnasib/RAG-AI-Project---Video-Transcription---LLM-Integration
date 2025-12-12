@@ -134,6 +134,9 @@ This project includes content from:
 - **First Run**: Type `0` to generate embeddings from the `newJsons/` folder
 - **Chunking Strategy**: Original chunks from Whisper are small; merging 5 chunks at a time creates more meaningful context for the LLM
 
+- **Local LLMs (Olama)**: Ensure `Olama` is installed and configured on your machine. Olama provides a simple local server for running supported models; follow Olama's installation instructions for your OS.
+- **Required models**: When running local models for embeddings or generation, make sure required models (for example, the BG embedding model) are downloaded and available to Olama or your chosen local runtime. If you do not have these models installed, use the hosted OpenAI APIs instead.
+
 ## Course
 
 Last project in my Data Science course by Code with Harry to complete the course.
