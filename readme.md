@@ -1,6 +1,6 @@
 # RAG AI Project - Video Transcription & LLM Integration
 
-A Retrieval-Augmented Generation (RAG) system that converts YouTube videos to text, creates embeddings, and uses an LLM to answer questions based on video content.
+A Retrieval-Augmented Generation (RAG) system that converts videos to mp3 to text, creates embeddings, and uses an LLM to answer questions based on video content.
 
 ## Project Overview
 
@@ -85,7 +85,7 @@ This project includes content from:
 
 - **18 Web Development Videos** from Code with Harry
 - **Pre-processed JSON chunks** in `newJsons/` folder
-- **Merged chunks** for better context (5 chunks merged per file)
+- **Merged chunks** for better context
 - **Ready-to-use embeddings pipeline**
 
 ### Example Queries
@@ -119,14 +119,6 @@ This project includes content from:
 | `merge_chunk.py`      | Merge small chunks into larger ones      |
 | `03_main.py`          | Embeddings generation & query processing |
 | `embeddings.joblib`   | Stored embeddings (auto-generated)       |
-
-## Dependencies
-
-- `openai` - OpenAI API & Whisper
-- `numpy` - Numerical computations
-- `scikit-learn` - Cosine similarity
-- `joblib` - Embedding storage
-- `python-dotenv` - Environment variables
 
 ## Notes
 
